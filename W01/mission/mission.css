@@ -1,0 +1,38 @@
+#content {
+    max-width: 34%;
+    border: 1px solid darkgrey;
+    margin: 30px auto;
+    padding: 80px;
+    padding-bottom: 15px;
+}
+#title {
+    display: block;
+    text-align: center;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin-bottom: 5px;
+
+}
+h2 {
+    color: blue;
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+hr {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+li {
+    margin: 1em;
+}
+#logo {
+    text-align: center;
+}
+img{
+    width: 30%;
+    margin: 20px auto;
+}

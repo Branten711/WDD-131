@@ -18,6 +18,9 @@ footer {
 h1 {
     text-align: center;
 }
+.menu-btn div {
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}  
 section {
   padding: 20px;
   background-color: white;

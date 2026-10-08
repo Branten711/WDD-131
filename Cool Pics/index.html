@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cool Pics</title>
     <link href="cool-pics.css" rel="stylesheet">
+    <script src="cool-pics.js" defer></script>
 </head>
 <body>
     <header>
         <h1>Cool Pics📷</h1>
-        <h2 id="menu">Menu</h2>
+        <button id="menu-btn">Menu</button>
         <nav>
             <a href="#">Home</a>
             <a href="#">People</a>
@@ -21,7 +22,7 @@
     </header>
     <main>
         <h2>Current Work</h2>
-        <div>
+        <div class="gallery">
             <section>
                 <img src="https://wddbyui.github.io/wdd131/images/norris-sm.jpg" alt="yellowstone pictue">
             </section>
@@ -50,6 +51,10 @@
                 <img src="https://wddbyui.github.io/wdd131/images/norris-sm.jpg" alt="yellowstone pictue">
             </section>
         </div>
+        <dialog>
+            <img>
+            <button class="close-viewer">X</button>
+        </dialog>
     </main>
     <footer>
         <h3>@2025 Not a real site</h3>

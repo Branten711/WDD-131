@@ -1,0 +1,117 @@
+h2 {
+    font-family: "Amatic SC";
+    color: lightblue;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header img {
+    width: 20%;
+    height: 15%;
+}
+h1 {
+    font-family: "Amatic SC", cursive;
+    font-size: 50px;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 90%;
+    margin: 20px auto;
+    border: 1px;
+    border-radius: 15px;
+}
+
+.search input {
+    width: 100%;
+    height: 42px;
+    padding: 0 50px 0 12px;
+    font-size: 1rem;
+}
+
+.search button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 42px;
+    place-items: center;
+}
+
+.search button img {
+    width: 20px;
+    height: 20px;
+}
+hr {
+    color: grey;
+}
+.recipe {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}
+.recipe button{
+    width: 70px;
+    height: 20px;
+
+}
+.recipe img{
+    align-items: center;
+    width: 100%;
+}
+.recipe p {
+    display: none;
+}
+footer .social{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+footer a {
+    display: flex;
+    justify-content: center;
+}
+footer img {
+    width: 30px;
+}
+@media screen and (min-width: 500px){
+    .recipe {
+        flex-direction: row;
+        gap: 20px;
+    }
+    .recipe img {
+    width: 45%;
+   
+    }
+    .info {
+        flex-direction: column;
+        margin: 20px;
+    }
+    h1 {
+        font-size: 200px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .recipe p {
+        display: block;
+    }
+    .recipe button {
+        justify-content: center;
+        height: 25px;
+    }
+    footer .social{
+        
+        justify-content: end;
+        align-items: center;
+    }
+    footer a {
+        justify-content: start;
+        align-items: center;
+    }
+}
